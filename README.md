@@ -17,7 +17,7 @@ The extension runs only on New York Times Wordle pages. It does not collect, sto
 
 Upload `dist/wordle-archive-navigation-1.0.0.zip` to the Chrome Web Store Developer Dashboard. The ZIP contains the manifest, content script, stylesheet, and extension icons.
 
-Store listing artwork and paste-ready submission text are in `store-assets/` and `STORE_LISTING.md`. These files are not included in the extension ZIP.
+Store listing artwork and paste-ready submission text are in `store-assets/` and `STORE_LISTING.md`. The canonical logo source is `store-assets/logo-source.svg`. These files are not included in the extension ZIP.
 
 ## Privacy
 
