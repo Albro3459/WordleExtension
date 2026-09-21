@@ -1,4 +1,4 @@
-# Archive Navigation for Wordle
+# Wordle Chrome Extension for Archive Navigation
 
 A Chrome extension that adds previous and next day controls to the New York Times Wordle archive.
 
