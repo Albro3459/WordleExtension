@@ -1,0 +1,48 @@
+#wordle-archive-navigation {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  pointer-events: none;
+}
+
+#wordle-archive-navigation a {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  box-sizing: border-box;
+  border: 1px solid var(--color-tone-4, #818384);
+  border-radius: 50%;
+  background: var(--color-tone-7, #ffffff);
+  color: var(--color-tone-1, #000000);
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+#wordle-archive-navigation a svg {
+  display: block;
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+#wordle-archive-navigation a:hover {
+  background: var(--color-tone-6, #f3f3f3);
+}
+
+#wordle-archive-navigation a:focus-visible {
+  outline: 3px solid var(--color-tone-1, #000000);
+  outline-offset: 3px;
+}
+
+#wordle-archive-navigation a[aria-disabled="true"] {
+  opacity: 0.35;
+  cursor: default;
+}

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Archive Navigation for Wordle",
+  "version": "1.0.0",
+  "description": "Adds previous and next day controls to the Wordle archive.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.nytimes.com/games/wordle",
+        "https://www.nytimes.com/games/wordle/*"
+      ],
+      "css": ["content.css"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
