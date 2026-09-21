@@ -1,6 +1,8 @@
-# Wordle Chrome Extension for Archive Navigation
+# Wordle Archive Navigation
 
 A Chrome extension that adds previous and next day controls to the New York Times Wordle archive.
+
+This is an unofficial extension and is not affiliated with The New York Times.
 
 ## Local installation
 
@@ -13,4 +15,10 @@ The extension runs only on New York Times Wordle pages. It does not collect, sto
 
 ## Package
 
-The upload package is generated at `dist/wordle-archive-navigation-1.0.0.zip`. Store icons and listing artwork still need to be added before Chrome Web Store submission.
+Upload `dist/wordle-archive-navigation-1.0.0.zip` to the Chrome Web Store Developer Dashboard. The ZIP contains the manifest, content script, stylesheet, and extension icons.
+
+Store listing artwork and paste-ready submission text are in `store-assets/` and `STORE_LISTING.md`. These files are not included in the extension ZIP.
+
+## Privacy
+
+Wordle Archive Navigation reads the current Wordle page address locally to calculate adjacent dates. It does not collect, store, or transmit user data. See `PRIVACY.md` for the full privacy policy.
