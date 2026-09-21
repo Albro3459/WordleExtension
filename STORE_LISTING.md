@@ -36,7 +36,7 @@ No. All JavaScript and CSS are included in the extension package.
 
 ## Data handling
 
-Disclose **Web history** because the current Wordle page address is processed locally to determine the puzzle date. The address is used only for the extension's visible navigation feature. It is not retained, transmitted, sold, or shared.
+No data is retained, transmitted, sold, or shared.
 
 Certify each required Limited Use statement in the dashboard.
 
